@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mnPesquisar"
+        android:title="Pesquisar"
+        android:icon="@drawable/ic_search_wite"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/mnConta"
+        android:title="Conta"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/mnSair"
+        android:title="Sair"
+        app:showAsAction="never"/>
+
+</menu>

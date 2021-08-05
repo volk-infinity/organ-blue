@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#37981B</color>-->
+    <!-- Cores Antigas-->
+    <color name="colorPrimary">#055a8c</color>
+    <color name="colorPrimaryDark">#101547</color>
+    <color name="colorAccent">#101547</color>
+    <color name="colorOutline">#808080</color>
+    <color name="colorGray">#DCDCDC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackgroundApp">#ECECEC</color>
+    <color name="ic_organapp_background">#FFFFFF</color>
+    <color name="colorBlack">#030303</color>
+    <color name="colorStar">#FFBE3C</color>
+</resources>

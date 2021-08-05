@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.LogFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEmailLogLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEmailLog"
+            android:layout_width="330dp"
+            android:layout_height="46dp"
+            android:hint="E-mail"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
+            android:textColorLink="@color/colorPrimary">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtSenhaLogLayout"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtSenhaLog"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Senha"
+            android:imeOptions="actionDone"
+            android:includeFontPadding="true"
+            android:inputType="textPassword"
+            android:password="true"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
+            android:textColorLink="@color/colorPrimary">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:text="Esqueceu a senha?"
+        app:fontFamily="@font/lato_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bkg_radius_button"
+        android:text="ENTRAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        app:fontFamily="@font/lato_bold" />
+
+</LinearLayout>

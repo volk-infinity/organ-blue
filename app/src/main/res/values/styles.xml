@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textSizeTollbar" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">35dp</item>
+    </style>
+
+    <style name = "ToolbarTheme" parent = "ThemeOverlay.AppCompat.Light" >
+        <item name="android:fontFamily"> @font/lato_bold </item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+
+</resources>

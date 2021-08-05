@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "945668670409",
+    "firebase_url": "https://organ-mobile-8d0c9.firebaseio.com",
+    "project_id": "organ-mobile-8d0c9",
+    "storage_bucket": "organ-mobile-8d0c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945668670409:android:cd8e5345631d3eae361e18",
+        "android_client_info": {
+          "package_name": "com.example.organ"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945668670409-ps4oslqld02cb9efl9b6doeihmeeegdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.organ",
+            "certificate_hash": "58f723bb6029e675d548ac55c8337a7d0f610032"
+          }
+        },
+        {
+          "client_id": "945668670409-getbvcb8g77frbu0m2t902kssjbr9s94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0grcc-dJxZsal9Y6fmuY2midMesVlsUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945668670409-getbvcb8g77frbu0m2t902kssjbr9s94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.RegisterFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtNomeUserLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtNomeUser"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:hint="Nome de Usuário"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@color/colorBlack"
+        android:textColorLink="@color/colorPrimary">
+
+    </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEmailRegisterLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtEmailRegister"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@color/colorBlack"
+        android:textColorLink="@color/colorPrimary">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtSenhaRegisterLayout"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtSenhaRegister"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Senha"
+            android:imeOptions="actionDone"
+            android:includeFontPadding="true"
+            android:inputType="textPassword"
+            android:password="true"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
+            android:textColorLink="@color/colorPrimary">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioButton
+        android:id="@+id/rbtnTermo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:text="Eu aceito os termos e condições"
+        android:textColor="@color/colorBlack" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bkg_radius_button"
+        android:onClick="validationUser"
+        android:text="REGISTRAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        app:fontFamily="@font/lato_bold" />
+
+</LinearLayout>
