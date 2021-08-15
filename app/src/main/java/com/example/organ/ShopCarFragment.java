@@ -29,7 +29,7 @@ public class ShopCarFragment extends Fragment {
 
     private Button btnFinalizar;
     private ImageButton somaButton, subtraiButton;
-    private TextView qtdeTextView;
+    private TextView qtdeTextView, subTotalText;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -40,6 +40,7 @@ public class ShopCarFragment extends Fragment {
         somaButton = view.findViewById(R.id.somaButton);
         subtraiButton = view.findViewById(R.id.diminuiButton);
         qtdeTextView =  view.findViewById(R.id.qtdeTextView);
+        subTotalText = view.findViewById(R.id.subTotalText);
         btnFinalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,29 +48,43 @@ public class ShopCarFragment extends Fragment {
             }
         });
 
-        somaButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Integer qtde =  Integer.parseInt(qtdeTextView.getText().toString());
-                qtde += 1;
-                qtdeTextView.setText(qtde.toString());
-                Toast.makeText(getContext(), qtde.toString(), Toast.LENGTH_SHORT).show();
-            }
-        });
-
         subtraiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Double valorUnitario = 6.00;
+                Double subTotal = Double.parseDouble(subTotalText.getText().toString());
                 Integer qtde =  Integer.parseInt(qtdeTextView.getText().toString());
                 qtde -= 1;
-                qtdeTextView.setText(qtde.toString());
-                Toast.makeText(getContext(), qtde.toString(), Toast.LENGTH_SHORT).show();
+
+                if(qtde>=0){
+                    String subtotal = String.valueOf(subTotal-valorUnitario);
+                    subTotalText.setText(subtotal.toString());
+                    qtdeTextView.setText(qtde.toString());
+                }else{
+                    Toast.makeText(getContext(),"valor já zero",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        somaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Double valorUnitario = 6.00;
+                Double subTotal = Double.parseDouble(subTotalText.getText().toString());
+                Integer qtde =  Integer.parseInt(qtdeTextView.getText().toString());
+                qtde += 1;
+
+                if(qtde>=1){
+                    String subtotal = String.valueOf(qtde * valorUnitario);
+                    subTotalText.setText(subtotal);
+                    qtdeTextView.setText(qtde.toString());
+                }else{
+                    Toast.makeText(getContext(),"valor já zero",Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
         return view;
     }
-
-
 
 }
