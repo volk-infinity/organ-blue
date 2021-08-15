@@ -15,7 +15,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
         tools:targetApi="lollipop"
-        app:title="Organ"
+        app:title="Cuida Pet"
         app:titleTextColor="@color/colorWhite"
         app:titleTextAppearance="@style/textSizeTollbar"
         />
