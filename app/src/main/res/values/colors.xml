@@ -2,11 +2,12 @@
 <resources>
     <!--<color name="colorPrimary">#37981B</color>-->
     <!-- Cores Antigas-->
-    <color name="colorPrimary">#055a8c</color>
-    <color name="colorPrimaryDark">#101547</color>
+    <color name="colorPrimary">#c71364</color>
+    <color name="colorPrimaryDark">#720e2a</color>
     <color name="colorAccent">#101547</color>
     <color name="colorOutline">#808080</color>
     <color name="colorGray">#DCDCDC</color>
+    <color name="colorSplash">#b3b1b2</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBackgroundApp">#ECECEC</color>
     <color name="ic_organapp_background">#FFFFFF</color>
