@@ -6,7 +6,21 @@
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/bkg_degrade.xml" value="0.3828125" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/bkg_radius.xml" value="0.3828125" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/bkg_radius_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_buy.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_category.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_chat.xml" value="0.3828125" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_favorite_border_white.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_favorite_btn.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_favorite_off.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_favorite_white.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_galery.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_promocao.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_search_gray.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_search_wite.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_star.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_star_border.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_star_right.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/ic_user.xml" value="0.3828125" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/drawable/round_button.xml" value="0.3828125" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/activity_conta.xml" value="0.28306159420289856" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/activity_detalhes_produto.xml" value="0.28306159420289856" />
@@ -21,12 +35,14 @@
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/fragment_main.xml" value="0.28306159420289856" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/fragment_register.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/fragment_shop_car.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/list_categoria.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/list_categoria.xml" value="0.33" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/list_products.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/layout/toolbar.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/menu/menu_detalhes_produto.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/menu/menu_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/menu/menu_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/mila_/Desktop/AppLoja2/organ-blue/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
       </map>
     </option>
   </component>

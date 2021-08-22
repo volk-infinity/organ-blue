@@ -1,7 +1,6 @@
 package com.example.organ;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,14 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 
-import com.example.organ.activity.DetalhesProdutoActivity;
 import com.example.organ.adapter.ListaCategoriaAdapter;
-import com.example.organ.helper.RecyclerItemClickListener;
 import com.example.organ.model.Categoria;
-import com.example.organ.model.Produtos;
-import com.example.organ.model.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,16 +59,16 @@ public class CategoryFragment extends Fragment {
     }
 
     public void ListagemCategoria(){
-        Categoria c = new Categoria("Vegetais", R.drawable.img_product_7);
+        Categoria c = new Categoria("Alimentação", R.drawable.alimentacao);
         this.listaCategoria.add(c);
 
-        c = new Categoria("Sementes", R.drawable.img_product_20_soja);
+        c = new Categoria("Acessórios", R.drawable.acessorios);
         this.listaCategoria.add(c);
 
-        c = new Categoria("Frutas", R.drawable.img_product_18);
+        c = new Categoria("Higiene", R.drawable.img_product_18);
         this.listaCategoria.add(c);
 
-        c = new Categoria("Máquinas", R.drawable.img_product_12);
+        c = new Categoria("Medicamentos", R.drawable.medicamentos);
         this.listaCategoria.add(c);
     }
 
